@@ -1,0 +1,7 @@
+<view
+  class=" custom-class ss-font ss-icon-{{ name }} "
+  style="{{ color ? 'color: ' + color : '' }}; {{ size ? 'font-size: ' + size : '' }}; {{ block ? 'display:block ' : '' }}"
+  bind:tap="onClick"
+>
+  <view wx:if="{{ info !== null }}" class="ss-icon__info">{{ info }}</view>
+</view>

@@ -1,0 +1,9 @@
+<view class='view-page'>
+  <navbar page-name="你当前页面的名字"></navbar>
+  <view class='page-content'>
+    <!--这里放页面的内容-->
+    <view style="height:300px;background-color:#FF6F43"></view>
+    <view style="height:300px;background-color:#FFD31C"></view>
+    <view style="height:300px;background-color:#09BFEA"></view>
+  </view>
+</view>

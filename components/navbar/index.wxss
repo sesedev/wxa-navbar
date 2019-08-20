@@ -1,0 +1,65 @@
+/* components/navbar/index.wxss */
+
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+.navbar-title {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 115px;
+  padding-right: 115px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.navbar-action-wrap {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  z-index: 11;
+  line-height: 1;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.navbar-action-group {
+  border: 1px solid #f0f0f0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.navbar-action_item {
+  padding: 3px 0;
+  color: #333;
+}
+
+.navbar-action-group .navbar-action_item {
+  border-right: 1px solid #f0f0f0;
+  padding: 3px 14px;
+}
+
+.navbar-action-group .last {
+  border-right: none;
+}

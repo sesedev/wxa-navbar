@@ -1,0 +1,52 @@
+/* @font-face {
+  font-family: 'ss-font';  
+  src: url('https://www.52cxy.cn/wxapp/teacher/font/iconfont.eot');
+  src: url('https://www.52cxy.cn/wxapp/teacher/font/iconfont.woff') format('woff'),
+  url('https://www.52cxy.cn/wxapp/teacher/font/iconfont.ttf') format('truetype'),
+  url('https://www.52cxy.cn/wxapp/teacher/font/iconfont.svg') format('svg');
+} */
+
+@font-face {
+  font-family: 'ss-font';  /* project id 1360796 */
+  src: url('//at.alicdn.com/t/font_1360796_62vxgaud7d6.eot');
+  src: url('//at.alicdn.com/t/font_1360796_62vxgaud7d6.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1360796_62vxgaud7d6.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1360796_62vxgaud7d6.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1360796_62vxgaud7d6.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1360796_62vxgaud7d6.svg#ss-font') format('svg');
+}
+.ss-icon__info {
+  position: absolute;
+  right: 0;
+  top: -8px;
+  color: #fff;
+  font-size: 12px;
+  font-family: PingFang SC, Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 3px;
+  min-width: 16px;
+  line-height: 14px;
+  border-radius: 16px;
+  background-color: #f44;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  -webkit-transform-origin: 100%;
+  transform-origin: 100%;
+  white-space: nowrap;
+}
+
+.ss-font {
+  font-family: "ss-font" !important;
+  display: inline-block;
+  font: normal normal normal 14px/1 ss-icon;
+  font-size: inherit;
+  text-rendering: auto;
+  position: relative;
+}
+.ss-icon-index:before {
+  content: "\e688";
+}
+.ss-icon-back:before {
+  content: "\e9c9";
+}
