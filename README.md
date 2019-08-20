@@ -1,8 +1,8 @@
 # 组件原理
-[自定义导航栏](https://www.cnblogs.com/sese/p/9761713.html)
+[微信小程序-自定义导航栏](https://www.cnblogs.com/sese/p/9761713.html)
 
 # 使用方法
-##引入该组件
+## 引入该组件
 ```
 {
   "usingComponents": {
@@ -11,7 +11,7 @@
 }
 ```
 
-##使用该组件
+## 使用该组件
 ```
 <view class='view-page'>
   <navbar page-name="你当前页面的名字"></navbar>
